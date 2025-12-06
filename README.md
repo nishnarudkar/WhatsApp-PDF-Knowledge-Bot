@@ -204,8 +204,8 @@ Perfect for non-technical users too ✅
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/whatsapp-pdf-knowledge-bot.git
-cd whatsapp-pdf-knowledge-bot
+git clone https://github.com/nishnarudkar/WhatsApp-PDF-Knowledge-Bot.git
+cd Whatsapp-PDF-Knowledge-bot
 ```
 
 ### 2. Create and Activate Virtual Environment (Recommended)
@@ -302,7 +302,7 @@ This project was built as part of **AI for Bharat – Lazy Automation Week**.
 
 ## 🔗 GitHub Repo
 
-👉 [https://github.com/YOUR_USERNAME/whatsapp-pdf-knowledge-bot](https://github.com/YOUR_USERNAME/whatsapp-pdf-knowledge-bot)
+👉 https://github.com/nishnarudkar/WhatsApp-PDF-Knowledge-Bot
 
 ---
 
@@ -320,4 +320,4 @@ MIT License - feel free to use and modify!
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Nishant Narudkar]**
