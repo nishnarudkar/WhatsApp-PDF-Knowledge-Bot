@@ -1,4 +1,4 @@
-# 📚 WhatsApp PDF Knowledge Bot
+#  WhatsApp PDF Knowledge Bot
 
 > **"I hate searching old WhatsApp PDFs, so I built this."**
 
@@ -8,25 +8,25 @@ Built as part of **AI for Bharat – Week 2: Lazy Automation** | Powered by **Py
 
 ---
 
-## 🚀 What This Project Does
+##  What This Project Does
 
 This tool:
 
-✅ **Indexes all PDFs** from your WhatsApp / Downloads folder  
-✅ **Extracts text** from PDFs automatically  
-✅ **Searches instantly** using keywords  
-✅ **Auto-tags subjects** (ML, Neural Networks, DBMS, DSA, etc.)  
-✅ **Interactive chat-style mode** for quick searches  
-✅ **Detects duplicate PDFs** based on content  
-✅ **Shows analytics & insights** about your study material  
-✅ **Exports search results** to CSV / TXT  
-✅ **Works completely offline**  
-✅ **Menu system** (no command memorization needed)  
-✅ **Colored terminal output** for better readability  
+ **Indexes all PDFs** from your WhatsApp / Downloads folder  
+ **Extracts text** from PDFs automatically  
+ **Searches instantly** using keywords  
+ **Auto-tags subjects** (ML, Neural Networks, DBMS, DSA, etc.)  
+ **Interactive chat-style mode** for quick searches  
+ **Detects duplicate PDFs** based on content  
+ **Shows analytics & insights** about your study material  
+ **Exports search results** to CSV / TXT  
+ **Works completely offline**  
+ **Menu system** (no command memorization needed)  
+ **Colored terminal output** for better readability  
 
 ---
 
-## 🧠 Why This Exists (The Problem)
+##  Why This Exists (The Problem)
 
 Engineering students receive hundreds of PDFs via:
 - WhatsApp
@@ -40,11 +40,11 @@ After a few months:
 - Notes are scattered
 - Searching manually is painful
 
-So instead of opening 30 PDFs during exams… I built a **local knowledge bot** 😄
+So instead of opening 30 PDFs during exams… I built a **local knowledge bot** 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 whatsapp-pdf-knowledge-bot/
@@ -61,9 +61,9 @@ whatsapp-pdf-knowledge-bot/
 
 ---
 
-## 🧪 Features Explained
+##  Features Explained
 
-### ✅ 1. Smart PDF Indexing
+###  1. Smart PDF Indexing
 
 Scans your WhatsApp / Downloads folder and extracts:
 - File name
@@ -80,7 +80,7 @@ python src/whatsapp_pdf_bot.py index --folder "C:\Users\YourName\Downloads"
 
 ---
 
-### ✅ 2. Smart Subject Auto-Tagging
+###  2. Smart Subject Auto-Tagging
 
 Each PDF is automatically classified into:
 - **Machine Learning**
@@ -94,7 +94,7 @@ Classification is based on keyword matching in the PDF content.
 
 ---
 
-### ✅ 3. Instant Keyword Search
+###  3. Instant Keyword Search
 
 ```bash
 python src/whatsapp_pdf_bot.py search "neural networks"
@@ -123,7 +123,7 @@ python src/whatsapp_pdf_bot.py search "probability" --top-k 10
 
 ---
 
-### ✅ 4. Interactive Search Mode (Chat Style)
+###  4. Interactive Search Mode (Chat Style)
 
 ```bash
 python src/whatsapp_pdf_bot.py interactive
@@ -139,7 +139,7 @@ Then type:
 
 ---
 
-### ✅ 5. Duplicate PDF Detector
+###  5. Duplicate PDF Detector
 
 ```bash
 python src/whatsapp_pdf_bot.py dups
@@ -149,7 +149,7 @@ Finds same/similar PDFs saved multiple times with different names using content 
 
 ---
 
-### ✅ 6. Export Search Results (CSV / TXT)
+###  6. Export Search Results (CSV / TXT)
 
 ```bash
 # Export to CSV
@@ -161,7 +161,7 @@ python src/whatsapp_pdf_bot.py search "probability" --export exports/probability
 
 ---
 
-### ✅ 7. Analytics & Insights Mode
+###  7. Analytics & Insights Mode
 
 ```bash
 python src/whatsapp_pdf_bot.py stats
@@ -178,7 +178,7 @@ Shows:
 
 ---
 
-### ✅ 8. Simple Menu Mode (No Commands Needed)
+###  8. Simple Menu Mode (No Commands Needed)
 
 Just run:
 ```bash
@@ -195,11 +195,11 @@ You'll see:
 6) Exit
 ```
 
-Perfect for non-technical users too ✅
+Perfect for non-technical users too 
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the Repo
 
@@ -236,39 +236,39 @@ colorama>=0.4.6
 
 ---
 
-## ▶️ How to Use
+##  How to Use
 
-### 🔹 Index Your PDFs (Once)
+###  Index Your PDFs (Once)
 
 ```bash
 python src/whatsapp_pdf_bot.py index --folder "C:\Users\YourName\Downloads"
 ```
 
-### 🔹 Search
+###  Search
 
 ```bash
 python src/whatsapp_pdf_bot.py search "neural networks"
 ```
 
-### 🔹 Show Stats
+###  Show Stats
 
 ```bash
 python src/whatsapp_pdf_bot.py stats
 ```
 
-### 🔹 Detect Duplicates
+###  Detect Duplicates
 
 ```bash
 python src/whatsapp_pdf_bot.py dups
 ```
 
-### 🔹 Interactive Mode
+###  Interactive Mode
 
 ```bash
 python src/whatsapp_pdf_bot.py interactive
 ```
 
-### 🔹 Menu Mode (Easiest)
+###  Menu Mode (Easiest)
 
 ```bash
 python src/whatsapp_pdf_bot.py
@@ -276,7 +276,7 @@ python src/whatsapp_pdf_bot.py
 
 ---
 
-## 🧠 Built with Kiro
+##  Built with Kiro
 
 Kiro helped in:
 - Designing the CLI architecture
@@ -290,7 +290,7 @@ This project was built as part of **AI for Bharat – Lazy Automation Week**.
 
 ---
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - [ ] Semantic search using embeddings
 - [ ] Web-based UI (Flask / FastAPI)
@@ -300,13 +300,13 @@ This project was built as part of **AI for Bharat – Lazy Automation Week**.
 
 ---
 
-## 🔗 GitHub Repo
+##  GitHub Repo
 
-👉 https://github.com/nishnarudkar/WhatsApp-PDF-Knowledge-Bot
+ https://github.com/nishnarudkar/WhatsApp-PDF-Knowledge-Bot
 
 ---
 
-## 🏁 Final Note
+##  Final Note
 
 This project is not just a script — it's a **real productivity tool** that turns unstructured PDF chaos into a searchable personal knowledge system.
 
@@ -314,7 +314,7 @@ If you're a student drowning in notes… **This bot is your academic life-saver.
 
 ---
 
-## 📝 License
+##  License
 
 MIT License - feel free to use and modify!
 
